@@ -1,0 +1,116 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.size-buttons {
+  margin-top: 10px;
+}
+
+.size-buttons button {
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.size-buttons button.selected {
+  background-color: #428bca;
+  color: white;
+}
+
+.cart {
+  flex: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.cart button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.ordered-items {
+  flex: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ordered-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ordered-items li {
+  margin: 5px 0;
+}
